@@ -6,7 +6,7 @@ I’ve always been a perfectionist, never settling for okay, spending hours perf
 
 - **[contact@kevinbmcintyre.ca](mail:contact@kevinbmcintyre.ca)**
 - [Linkedin](https://www.linkedin.com/in/kevin-mcintyre-6b65b1107/)
-- [Behance] (https://www.behance.net/kevinmcintacb2)
+- [Behance](https://www.behance.net/kevinmcintacb2)
 
 ---
 
