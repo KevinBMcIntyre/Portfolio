@@ -144,11 +144,6 @@ html {
   padding-top: .5em;
 }
 
-.active {
-  color: black !important;
-}
-
-
 .rimage {
   display: block;
   width: 100%;
