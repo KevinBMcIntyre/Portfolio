@@ -29,6 +29,11 @@ html {
   position: relative;
 }
 
+
+.logo2 {
+  height: 50px;
+}
+
 .name {
   text-decoration: none;
   font-style: normal;
