@@ -111,13 +111,6 @@ html {
   color: #bc1c2c;
 }
 
-.navigation a:hover {
-  color: #eee;
-}
-
-.navigation {
-  background-color: white;
-}
 
 .nav {
   position: relative;
@@ -130,13 +123,12 @@ html {
   padding: .5rem .75rem;
   text-decoration: none;
   color: #fff;
+  border-bottom: 3px solid transparent;
 }
 
 .nav a:hover,
 .nav a:focus {
-  background-color: #fff;
-  color: #5f0707;
-  font-family: 'Roboto', sans-serif; arial, sans-serif;
+   border-bottom-color: #F07158;
 }
 
 
@@ -161,6 +153,10 @@ header {
     background: -o-linear-gradient(#221982, #2E3AB5);
     background: -moz-linear-gradient(#221982, #2E3AB5);
     background: linear-gradient(#221982, #2E3AB5);
+}
+
+.oran {
+  color: #F07158;
 }
 
 .contact a {
