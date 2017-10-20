@@ -18,7 +18,7 @@ html {
 }
 
 .card h2 {
-  color: #c45865;
+  color: #2E3AB5;
 }
 
 .card p {
@@ -53,15 +53,6 @@ html {
   background-color: #eee;
 }
 
-.thanks {
-  background-color: #c45865;
-  color: white;
-}
-
-.thanks h2 {
-  color: white;
-}
-
 .footer {
   background-color: #000;
   color: #fff;
@@ -78,6 +69,10 @@ html {
 
 .footer i {
   color: white;
+}
+
+.footer i:hover {
+  color: #F07158;
 }
 
 .page {
@@ -134,7 +129,7 @@ html {
   display: inline-block;
   padding: .5rem .75rem;
   text-decoration: none;
-  color: #bc1c2c;
+  color: #fff;
 }
 
 .nav a:hover,
@@ -144,14 +139,40 @@ html {
   font-family: 'Roboto', sans-serif; arial, sans-serif;
 }
 
-.nav .wrapper {
-  background-color: #fff;
-}
 
 .rimage {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.contact {
+    background: #2E3AB5;
+    background: -webkit-linear-gradient(#2E3AB5, #221982);
+    background: -o-linear-gradient(#2E3AB5, #221982);
+    background: -moz-linear-gradient(#2E3AB5, #221982);
+    background: linear-gradient(#2E3AB5, #221982);
+  color: #FFF;
+}
+
+header {
+    background: #2E3AB5;
+    background: -webkit-linear-gradient(#221982, #2E3AB5);
+    background: -o-linear-gradient(#221982, #2E3AB5);
+    background: -moz-linear-gradient(#221982, #2E3AB5);
+    background: linear-gradient(#221982, #2E3AB5);
+}
+
+.contact a {
+  color: #F07158;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: #fff;
+}
+.contact h2 {
+  color: white;
 }
 
 .overlay {
@@ -169,6 +190,15 @@ html {
 
 .container:hover .overlay {
   opacity: 1;
+}
+h2:after {
+    background: none repeat scroll 0 0 #F07158;
+    bottom: 0px;
+    content: "";
+    display: block;
+    height: 8px;
+    position: relative;
+    width: 38px;
 }
 
 .text {
