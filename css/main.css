@@ -148,11 +148,7 @@ html {
 }
 
 header {
-    background: #2E3AB5;
-    background: -webkit-linear-gradient(#221982, #2E3AB5);
-    background: -o-linear-gradient(#221982, #2E3AB5);
-    background: -moz-linear-gradient(#221982, #2E3AB5);
-    background: linear-gradient(#221982, #2E3AB5);
+    background: #000;
 }
 
 .oran {
