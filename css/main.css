@@ -55,10 +55,6 @@ html {
 
 .silver {
     background: #eee;
-    background: -webkit-linear-gradient(#eee, #d8d8d9);
-    background: -o-linear-gradient(#eee, #d8d8d9);
-    background: -moz-linear-gradient(#eee, #d8d8d9);
-    background: linear-gradient(#eee, #d8d8d9);
 }
 
 .footer {
