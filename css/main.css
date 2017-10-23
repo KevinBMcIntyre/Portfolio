@@ -18,7 +18,8 @@ html {
 }
 
 .card h2 {
-  color: #2E3AB5;
+  color: #15435b;
+  font-weight: bold;
 }
 
 .card p {
@@ -29,8 +30,11 @@ html {
   position: relative;
 }
 
+.st1:active {
+  fill: #EF7158;
+}
 
-.logo2 {
+.wordmark {
   height: 50px;
 }
 
@@ -50,7 +54,11 @@ html {
 }
 
 .silver {
-  background-color: #eee;
+    background: #eee;
+    background: -webkit-linear-gradient(#eee, #d8d8d9);
+    background: -o-linear-gradient(#eee, #d8d8d9);
+    background: -moz-linear-gradient(#eee, #d8d8d9);
+    background: linear-gradient(#eee, #d8d8d9);
 }
 
 .footer {
@@ -139,11 +147,11 @@ html {
 }
 
 .contact {
-    background: #2E3AB5;
-    background: -webkit-linear-gradient(#2E3AB5, #221982);
-    background: -o-linear-gradient(#2E3AB5, #221982);
-    background: -moz-linear-gradient(#2E3AB5, #221982);
-    background: linear-gradient(#2E3AB5, #221982);
+    background: #15435b;
+    background: -webkit-linear-gradient(#15435b, #002437);
+    background: -o-linear-gradient(#15435b, #002437);
+    background: -moz-linear-gradient(#15435b, #002437);
+    background: linear-gradient(#15435b, #002437);
   color: #FFF;
 }
 
