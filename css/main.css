@@ -18,7 +18,7 @@ html {
 }
 
 .card h2 {
-  color: #15435b;
+  color: #9e1f63;
   font-weight: bold;
 }
 
@@ -54,7 +54,11 @@ html {
 }
 
 .silver {
-    background: #eee;
+    background: #fff;
+    background: -webkit-linear-gradient(#eee, #fff, #fff, #fff, #fff);
+    background: -o-linear-gradient(#eee, #fff, #fff, #fff, #fff);
+    background: -moz-linear-gradient(#eee, #fff, #fff, #fff, #fff);
+    background: linear-gradient(#eee, #fff, #fff, #fff, #fff);
 }
 
 .footer {
@@ -97,14 +101,19 @@ html {
 
 .banner {
   position: relative;
+  padding: 2em 3em 1em 3em
 }
 
 .banner span {
   display: block;
   padding-bottom: 1rem;
-  color: #fff;
   max-width: 10em;
   padding-top: 0;
+}
+
+.logo {
+width: 100%;
+max-width: 375px;
 }
 
 .embed-4by1, .embed--4by1 {
@@ -126,13 +135,12 @@ html {
   display: inline-block;
   padding: .5rem .75rem;
   text-decoration: none;
-  color: #fff;
-  border-bottom: 3px solid transparent;
+  color: #a7a9ac;
 }
 
 .nav a:hover,
 .nav a:focus {
-   border-bottom-color: #F07158;
+   color: #000;
 }
 
 
@@ -143,20 +151,20 @@ html {
 }
 
 .contact {
-    background: #15435b;
-    background: -webkit-linear-gradient(#15435b, #002437);
-    background: -o-linear-gradient(#15435b, #002437);
-    background: -moz-linear-gradient(#15435b, #002437);
-    background: linear-gradient(#15435b, #002437);
+    background: #9e1f63;
+    background: -webkit-linear-gradient(-145deg, #003668, #9e1f63);
+    background: -o-linear-gradient(-145deg, #003668, #9e1f63);
+    background: -moz-linear-gradient(-145deg, #003668, #9e1f63);
+    background: linear-gradient(-145deg, #003668, #9e1f63);
   color: #FFF;
 }
 
 header {
-    background: #000;
+    background: #fff;
 }
 
 .oran {
-  color: #F07158;
+  color: #a7a9ac;
 }
 
 .contact a {
@@ -188,11 +196,11 @@ header {
   opacity: 1;
 }
 h2:after {
-    background: none repeat scroll 0 0 #F07158;
+    background: none repeat scroll 0 0 #003668;
     bottom: 0px;
     content: "";
     display: block;
-    height: 8px;
+    height: 6px;
     position: relative;
     width: 38px;
 }
