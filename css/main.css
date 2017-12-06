@@ -18,7 +18,7 @@ html {
 }
 
 .card h2 {
-  color: #9e1f63;
+  color: #003668;
   font-weight: bold;
 }
 
@@ -64,7 +64,7 @@ html {
 }
 
 .footer i {
-  color: #a7a9ac;
+  color: #003668;
 }
 
 .footer i:hover {
@@ -89,7 +89,6 @@ html {
 
 .banner {
   position: relative;
-  padding: 2em 3em 1em 3em
 }
 
 .banner span {
@@ -149,6 +148,7 @@ max-width: 375px;
 
 header {
     background: #fff;
+    padding: 2em 3em 1em 3em;
 }
 
 .oran {
