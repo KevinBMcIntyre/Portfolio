@@ -30,10 +30,6 @@ html {
   position: relative;
 }
 
-.st1:active {
-  fill: #EF7158;
-}
-
 .wordmark {
   height: 50px;
 }
@@ -62,25 +58,17 @@ html {
 }
 
 .footer {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #a7a9ac;
   width: 100%;
 }
 
-.footer a {
-  color: #bc1c2c;
-}
-
-.footer a:hover {
-  color: #eee;
-}
-
 .footer i {
-  color: white;
+  color: #a7a9ac;
 }
 
 .footer i:hover {
-  color: #F07158;
+  color: #9e1f63;
 }
 
 .page {
@@ -194,15 +182,6 @@ header {
 
 .container:hover .overlay {
   opacity: 1;
-}
-h2:after {
-    background: none repeat scroll 0 0 #003668;
-    bottom: 0px;
-    content: "";
-    display: block;
-    height: 6px;
-    position: relative;
-    width: 38px;
 }
 
 .text {
