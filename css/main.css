@@ -28,6 +28,7 @@ html {
 
 .portfolio {
   position: relative;
+  padding-bottom: 2em;
 }
 
 .wordmark {
@@ -178,6 +179,7 @@ header {
   opacity: 0;
   transition: .25s ease;
   background-color: rgba(0,0,0,.85);
+
 }
 
 .container:hover .overlay {
