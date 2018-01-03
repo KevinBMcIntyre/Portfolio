@@ -22,6 +22,10 @@ html {
   text-decoration: none;
 }
 
+.ban {
+  width: 100%;
+}
+
 .card h2 {
   color: #9e1f63;
   font-weight: bold;
