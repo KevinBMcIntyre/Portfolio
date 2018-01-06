@@ -230,6 +230,9 @@ header {
   -ms-transform: translate(-50%, -50%);
 }
 
+.large {
+  display: none;
+}
 @media only screen and (min-width: 25em) {
 
   .banner span {
@@ -244,6 +247,13 @@ header {
     display: inline;
   }
 
+  .large {
+    display: inline;
+  }
+
+  .small {
+    display: none;
+  }
 
 }
 
