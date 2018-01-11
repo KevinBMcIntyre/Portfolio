@@ -247,13 +247,7 @@ header {
     display: inline;
   }
 
-  .large {
-    display: inline;
-  }
 
-  .small {
-    display: none;
-  }
 
 }
 
@@ -270,6 +264,15 @@ header {
   .banner span {
     max-width: 25em;
   }
+
+  .large {
+    display: inline;
+  }
+
+  .small {
+    display: none;
+  }
+
 
 }
 
